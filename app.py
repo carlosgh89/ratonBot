@@ -52,10 +52,10 @@ class MouseTrackerApp(QMainWindow):
 
 
     def trabaja(self):
-        # abre el navegador y entra a la pagina https://coinmarketcap.com/portfolio-tracker/
+        #abre el navegador y entra a la pagina https://coinmarketcap.com/portfolio-tracker/
         pyautogui.hotkey('win', 'r')
         time.sleep(1)
-        pyautogui.typewrite('chrome')
+        pyautogui.typewrite('firefox')
         pyautogui.press('enter')
         time.sleep(2)
         pyautogui.typewrite('https://coinmarketcap.com/portfolio-tracker/')
